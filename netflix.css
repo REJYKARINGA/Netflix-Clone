@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+body{
+    background:#000;
+    color: aliceblue;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ), url('/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+nav button{
+    border: 1px solid rgb(136, 136, 136);
+    outline: none;
+    background: rgba(66, 58, 58, 0.5);
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 7px 20px;
+    justify-content: space-between;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+.language{
+    width: 120px;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid ;
+    float:left;
+    padding: 4.5px 4px 4.5px 0px ;
+}
+.language img{
+    width: 20px;
+    margin-left: 10px;
+}
+.sign{
+    background-color: red;
+    padding: 10x;
+    text-align: center;
+    float:left;
+    
+}
+.content { 
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    
+    text-align: center;
+    margin-top: 100px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+h6{
+    width: 150%;
+   
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.content h6{
+    font-size: 50px;
+    line-height: 70px;
+    
+
+}
+.content h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    transform: translate(-50%, -50%);
+}    
+
+.content p{
+    transform: translate(-50%, -50%);
+}
+form{
+    transform: translate(-50%, -50%);
+    border-radius:  4px;
+}  
+.email-sign{
+    
+margin-top: 10px;
+padding: 10px;
+}
+.email-sign button{ 
+    color: white;
+    border: none;
+    outline: none;
+    background-color: red;
+
+    
+}
+.email-sign input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    color: white;
+    
+}
+
+.features{
+width: 100%;
+background-color: #000;
+padding: 100px;
+
+}
+.row{
+    width: 100%;
+    height: 420px;
+    
+   
+}
+.row-text{
+    width: 50%;
+    float:left;
+    font-size: 26px;
+    align-items: center;
+    margin-top: 10%; 
+    margin-right: auto;
+    padding-right: 10px;
+   
+   }
+.row-tv{
+ width: 50%;
+ float:left;
+ padding-top: 50px;
+ 
+ align-items: center;
+}
+.line{
+   width: 100%;
+   height: 10px;
+    background-color: rgb(85, 85, 85);
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h1{
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+  font-size: 50px;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  padding-bottom: 20px;
+}
+
+details{
+  background-color: #303030;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 6px 150px;
+  
+  
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+.blackscreen{
+    background-color: #000;
+    height: 200px;
+    width: 100%;
+    
+    align-items: baseline;
+    margin: 5px;
+    
+}
+.blackscreen p{
+    padding-left: 50px;
+}
+.contentb { 
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    
+    text-align: center;
+    margin-top: 100px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+
+
+.contentb p{
+    transform: translate(-50%, 3450px);
+}
+.contentb form{
+    transform: translate(-50%, 3450px);
+    border-radius:  4px;
+}  
+.email-sign{
+    
+margin-top: 10px;
+padding: 10px;
+}
+.email-sign button{ 
+    color: white;
+    border: none;
+    outline: none;
+    background-color: red;
+
+    
+}
+.email-sign input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    color: white;
+    
+}
+.footer{
+    padding: 70px 200px;
+    cursor: pointer;
+    color: #b4b4b4;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
